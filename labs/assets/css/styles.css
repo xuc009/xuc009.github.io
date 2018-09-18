@@ -1,0 +1,24 @@
+body {
+    background: #ffa;
+    font-size: 38px;
+}
+body { background: #ff0000; }
+
+.small {
+    width: 200px;
+}
+.medium {
+    width: 400px;
+}
+
+div {
+    background: #ccc;
+}
+
+.header {
+    background: #0f0;
+}
+
+.content {
+    background: #B200FF;
+}
