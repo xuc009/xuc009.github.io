@@ -1,5 +1,65 @@
+* { box-sizing: border-box; }
+
 body {
-    background:#ffa;
-    font-size:30px;
-    
+    background: #fff;
+    margin: 0;
+    font-size: 0px;
+}
+.c {
+    background: #fff;
+    margin: 0px 15px 80px 15px;
+    display: inline-block;
+    font-size: 14px;
+    font-family: "Akzidenz-Grotesk BQ";
+}
+.c1 {
+    width: 130px;
+}
+
+.c2 {
+    width: 290px;
+}
+
+.c3 {
+    width: 450px;
+}
+
+.c4{
+    width: 610px;
+}
+
+.c5 {
+    width: 770px;
+}
+
+.c6 {
+    width: 930px;
+}
+
+.wrapper {
+    width: 960px;
+    margin: 0 auto 0 auto;
+    background: #fff;
+}
+
+img {width:100%}
+
+.head {
+    background: #fff;
+    margin: 15px 0px 0px 0px;
+    display: inline-block;
+    font-size: 144px;
+    width: 960px;
+    font-family: "Akzidenz-Grotesk BQ";
+    text-align: right;
+}
+
+.foot {
+    background: #fff;
+    margin: 15px 0px 86px 0px;
+    display: inline-block;
+    font-size: 144px;
+    width: 960px;
+    font-family: "Akzidenz-Grotesk BQ";
+    text-align: center;
 }
