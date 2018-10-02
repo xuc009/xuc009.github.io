@@ -1,0 +1,66 @@
+* { box-sizing: border-box; }
+
+body {
+    margin: 0;
+    font-size: 0px;
+    background-image: url(Aaliyahbkg.jpg);
+    background-size: 100%;
+
+    
+}
+.c {    
+    margin: 0px 15px 70px 15px;
+    display: inline-block;
+    font-size: 14px;
+    font-family: "Akzidenz-Grotesk BQ";
+}
+.c1 {
+    width: 130px;
+}
+
+.c2 {
+    width: 290px;
+}
+
+.c3 {
+    width: 450px;
+}
+
+.c4{
+    width: 610px;
+}
+
+.c5 {
+    width: 770px;
+}
+
+.c6 {
+    width: 930px;
+}
+
+.wrapper {
+    width: 960px;
+    margin: 0 auto 0 auto;
+}
+
+img {width:100%}
+
+.fix {position: fixed;
+    top: 30px;
+    left: 30px;
+}
+.fix2 {position: fixed;
+    top: 500px;
+    left: 30px;
+}
+
+
+.popup {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
