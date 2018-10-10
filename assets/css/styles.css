@@ -1,8 +1,12 @@
 body {
     background: #fff;
-    font-size: 38px;
+    font-size: 20px;
+    font-family: "Akzidenz-Grotesk BQ", Arial, Helvetica, sans-serif;
 }
-body { background: #fff; }
+body { background: #fff;
+    margin: 15px 15px 15px 15px; 
+
+}
 
 .small {
     width: 200px;
@@ -12,13 +16,14 @@ body { background: #fff; }
 }
 
 div {
-    background: #ccc;
+    background: #fff;
 }
 
 .header {
-    background: #0f0;
+    background:#fff;
+    font-size: 30px
 }
 
 .content {
-    background: #B200FF;
+    background: #fff;
 }
