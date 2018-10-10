@@ -1,0 +1,48 @@
+* { box-sizing: border-box; }
+
+body {
+    background:#fff;
+    margin: 0;
+    font-size: 0px;
+    color:#000;
+    font-family: "Akzidenz-Grotesk BQ";
+}
+
+.c {
+    background: #fff;
+    margin: 0px 15px 40px 15px;
+    display: inline-block;
+    font-size: 24px;
+    font-family: "Akzidenz-Grotesk BQ";
+}
+.c1 {
+    width: 130px;
+}
+
+.c2 {
+    width: 290px;
+}
+
+.c3 {
+    width: 450px;
+}
+
+.c4{
+    width: 610px;
+}
+
+.c5 {
+    width: 770px;
+}
+
+.c6 {
+    width: 930px;
+}
+
+.wrapper {
+    width: 960px;
+    margin: 0 auto 0 auto;
+    background: #fff;
+}
+
+img {width:100%}
