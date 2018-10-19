@@ -10,12 +10,26 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <link href="assets/css/styles.css" media="all" rel="stylesheet" />
     
+    <script type="text/javascript">
+      
+      function change () { 
+        var image = document.getElementById ('1');
+        image.src = "assets/img/B7.jpg";
+      }
+
+    </script>
+    
   </head>
 
   <body>
+<div class="wrapper">
+    <div class="c c6">
+        <img src="assets/img/B1.jpg" id="1" onclick="change() ;">
+    </div>
+  
 
-    Hello world.
-    <script src="assets/js/app.js"></script>
+</div>
+
 
   </body>
 </html>
