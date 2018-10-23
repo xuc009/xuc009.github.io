@@ -9,13 +9,48 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <link href="assets/css/styles.css" media="all" rel="stylesheet" />
-    
+    <meta charset="utf-8" />
+    <title>jQuery UI Draggable - Default functionality</title>
+    <link rel="stylesheet" href="http://code.jquery.com/ui/1.9.2/themes/base/jquery-ui.css" />
+    <script src="http://code.jquery.com/jquery-1.8.3.js"></script>
+    <script src="http://code.jquery.com/ui/1.9.2/jquery-ui.js"></script>
+    <link rel="stylesheet" href="/resources/demos/style.css" />
+    <style>
+    .draggable { width: 0px; height: 0px; padding: 0; }
+    </style>
+    <script>
+    $(function() {
+        $( ".draggable" ).draggable();
+    });
+    </script>
   </head>
 
   <body>
+        <embed src="assets/img/Year 3000.mp3" autostart="true" loop="true" hidden="true">
+        <video autoplay muted loop id="myVideo">
+                <source src="assets/img/JonasBros1.mp4" type="video/mp4">
+                Your browser does not support HTML5 video.
+              </video>
+      <div id="draggable1" class="ui-widget-content draggable one move">
+          <img src="assets/img/jb2.gif" width="275">
+      </div>
 
-    Hello world.
-    <script src="assets/js/app.js"></script>
+      <div id="draggable2" class="ui-widget-content draggable two move">
+            <img src="assets/img/joe.gif" width="180">
+      </div>
+
+      <div id="draggable2" class="ui-widget-content draggable three move">
+            <img src="assets/img/nick.gif" width="180">
+      </div>
+
+      <div id="draggable2" class="ui-widget-content draggable four move">
+            <img src="assets/img/jb.gif" width="180">
+      </div>
+    
+      <div id="draggable1" class="ui-widget-content draggable one five move">
+            <img src="assets/img/lol.png" width="275">
+        </div>
+    
 
   </body>
 </html>
