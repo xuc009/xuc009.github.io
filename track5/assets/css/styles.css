@@ -8,46 +8,45 @@ body{
 
 .move { 
 	cursor: move;
-	box-shadow: #ffffff;
+	box-shadow: 0 0 120px rgb(185, 185, 185);
 }
 
 .one {
-    position: absolute;
-	top: 83px;
-	left: 138px;
+    position: relative;
+	top: 103px;
+	left: 238px;
 	right: 0;
 	bottom: 0;
 }
 
 .two {
-    position: absolute;
-	top: 35px;
-	left: 495px;
+    position: relative;
+	top: 55px;
+	left: 645px;
 	right: 0;
 	bottom: 0;
     
 }
 
 .three {
-    position: absolute;
-	top: 99px;
-	left: 757px;
+    position: relative;
+	top: 119px;
+	left: 957px;
 	right: 0;
 	bottom: 0;
     
 }
 
 .four {
-    position: absolute;
-	top: 315px;
-	right: 393px;
-	bottom: 0;
+    position: relative;
+	top: 443px;
+	left: 455px;
 }
 
 .five {
     position: absolute;
-	top: 404px;
-	left: 578px;
+	top: 464px;
+	left: 728px;
 	right: 0;
 	bottom: 0;
     
