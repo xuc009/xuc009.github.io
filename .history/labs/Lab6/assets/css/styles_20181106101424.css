@@ -1,0 +1,69 @@
+* {
+    box-sizing: border-box;
+    vertical-align: top;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 0;
+}
+
+html, body, .wrapper {
+    height: 100%;
+}
+
+.column {
+    width: 50%;
+    padding: 30px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.content {
+    margin: 60px 0 0 0;
+}
+
+ul, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.nav-item {
+    border: 1px solid #000;
+    padding: 20px 10px;
+    display: inline-block;
+    margin: 0 15px 15px 0;
+    font-size: 20px;
+}
+
+.nav-item:hover, .active {
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+}
+
+.hide {
+    display:none;
+}
+
+.logo.apple img {width: 150px; height: 150px; }
+.logo.nike img {width: 321px; height: 115px; }
+.logo.disney img {width: 382px; height: 165px; }
+.logo.vogue img {width: 370px; height: 110px; }
+
+
+.logo {
+    height: 165px;
+    background: #ff0;
+    display: inline-block;
+    margin: 0 30px 30px 0;
+    position: relative; 
+}
+
+.logo img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    translate: (-50%, -50%);
+}

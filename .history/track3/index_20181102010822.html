@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title></title>
+    <link rel="shortcut icon" href="" />
+    <meta charset="utf-8">
+    <meta name="description" content="" />
+    <meta property="og:image" content=""/>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link href="assets/css/styles.css" media="all" rel="stylesheet" />
+    .custom {cursor: url(Cursor.png), auto; }
+    <script type="text/javascript">
+      
+      var imageNum = 1;
+      //function changeCursor(e) {
+        //get mouse position
+         // var x = e.clientX;
+         // var y = e.clientY;
+         // var coor = "Coordinates: (" + x + "," + y + ")";
+          //console.log(coor);
+          //change cursor image based on the position
+          //var body = document.getElementsByTagName ('body')[0];
+        //body.cursor = "url(), auto"
+      //}
+      //function change (e) { 
+        //var x = e.clientX;
+          //var y = e.clientY;
+        
+        //determine which direction
+        //
+        function changeImage() {
+        if(imageNum < 11) {
+         var image = document.getElementById ('1');
+          console.log(imageNum);
+         image.src = "assets/img/B"+imageNum+".jpg";
+         imageNum = imageNum + 1;
+        }
+        
+      }
+
+    </script>
+    
+  </head>
+
+  <body>
+
+<div class="wrapper">
+    <div class="c c6 zoom">
+      <img src="assets/img/B1.jpg">
+  </div>
+</div>
+
+
+  </body>
+</html>
