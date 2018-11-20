@@ -1,0 +1,52 @@
+* { box-sizing: border-box; }
+
+body{
+	background-color: #ffffff;
+	background-image: url('../img/back.png');
+	background-size: 1500px; 
+	margin: 0 auto 0 auto;
+	display: inline-block;
+    font-size: 0px;
+}
+
+.draggable1{
+    width: 375px;
+    height: 390px;
+    /* opacity: .8; */
+    overflow-y: scroll;
+    color: #000;
+    font-size: 15px;
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    line-height: 1.5;
+    box-shadow: 0 10px 20px white;
+    z-index: 1; 
+    cursor: move;
+}
+
+.text {    
+    width: 375px;
+    height: 390px;
+    overflow-y: scroll;
+    color: #000;
+    font-size: 15px;
+    line-height: 1.5;
+    /* z-index: 1; */
+    padding:20px;
+}
+
+.ariana {
+    width: 280px;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+}
+
+.finger {
+    width: 365px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+

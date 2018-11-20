@@ -1,0 +1,47 @@
+* { box-sizing: border-box; }
+
+body{
+	background-color: #ffffff;
+	background-image: url('../img/back.png');
+	background-size: 1500px; 
+	margin: 0 auto 0 auto;
+	display: inline-block;
+    font-size: 0px;
+}
+
+.chat {
+    background: #fff;
+    width: 325px;
+    height: 340px;
+    opacity: 1;
+    overflow-y: scroll;
+    color: #000;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+.text {    
+    width: 325px;
+    height: 340px;
+    overflow-y: scroll;
+    color: #000;
+    font-size: 14px;
+    line-height: 1.5;
+    z-index: 1;
+    padding:20px;
+
+}
+
+.fadeTop {
+    width: 100%;
+    height: 2000px;
+    z-index: 5;
+    position: absolute;
+    top: 0;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,ffffff+100&0+0,1+46 */
+  background: -moz-linear-gradient(top,  rgba(255,255,255,0) 0%, rgba(255,255,255,1) 46%, rgba(255,255,255,1) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top,  rgba(255,255,255,0) 0%,rgba(255,255,255,1) 46%,rgba(255,255,255,1) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom,  rgba(255,255,255,0) 0%,rgba(255,255,255,1) 46%,rgba(255,255,255,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+  
+  }

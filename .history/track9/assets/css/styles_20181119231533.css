@@ -1,0 +1,80 @@
+* { box-sizing: border-box; }
+
+body{
+	background-color: #ffffff;
+	background-image: url('../img/back.png');
+	background-size: 1500px; 
+	margin: 0 auto 0 auto;
+	display: inline-block;
+    font-size: 0px;
+}
+
+.draggable1{
+    width: 375px;
+    height: 390px;
+    /* opacity: .8; */
+    overflow-y: scroll;
+    color: #000;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+.text {    
+    width: 375px;
+    height: 390px;
+    overflow-y: scroll;
+    color: #000;
+    font-size: 15px;
+    font-family: 'Monaco'; 
+    line-height: 1.5;
+    /* z-index: 1; */
+    box-shadow: 8px 9px 20px white;
+    background: #F8CFFC;
+    opacity: .7;
+    padding:20px;
+    cursor: move;
+    }
+
+.type{
+    overflow: hidden;
+    border-right: .15em solid orange; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    /* margin: 0 auto; Gives that scrolling effect as the typing happens */
+    /* letter-spacing: .15em; Adjust as needed */
+    animation: 
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+    color: #00d7f0;
+}
+
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: orange; }
+  }
+
+.one {
+    position: absolute;
+    top: 10%;
+    left: 10%;
+}
+
+.ariana {
+    width: 280px;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+}
+
+.finger {
+    width: 365px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
