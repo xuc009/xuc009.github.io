@@ -17,20 +17,21 @@ body{
 
 .tooltip .tooltiptext {
     visibility: hidden;
-    /* width: 120px; */
+    width: 120px;
     background-color: #FF308D;
     color: #00E6FF;
     text-align: center;
-    padding: 5px 10px;
+    padding: 5px;
     font-size:15px;
     font-family: Arial, Helvetica, sans-serif;
-    font-weight: 400;
+    font-weight: 600;
     
     /* Position the tooltip */
     position: fixed;
     z-index: 1;
-    bottom: 0px;
-    left:0 ;
+    bottom: 10px;
+    left: 0;
+    margin-left: -60px;
 }
 
 .tooltip:hover .tooltiptext {
