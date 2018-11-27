@@ -1,0 +1,63 @@
+* { box-sizing: border-box; }
+
+body{
+	background-color: #ffffff;
+	background-image: url('../img/background.png');
+	background-size: 1500px; 
+	margin: 0 auto 0 auto;
+	display: inline-block;
+    font-size: 0px;
+}
+
+.draggable1{
+    width: 375px;
+    height: 390px;
+    /* opacity: .8; */
+    overflow-y: scroll;
+    color: #000;
+    font-size: 15px;
+    line-height: 1.5;
+    padding:10px;
+}
+
+
+.one {
+    position: absolute;
+    top: 10%;
+    left: 41%;
+    transform: translate(-50%,-50%);
+
+}
+
+.draggable2 {
+    width: 280px;
+}
+
+.two {
+    position: absolute;
+    top: 8%;
+    left: 60%;
+    cursor: move;
+}
+
+.draggable3 {
+    width: 365px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+.three{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+}
+
+img{
+    box-shadow: 8px 9px 20px white;
+}
+
+#draggable{
+    box-shadow: 
+  inset 5px 5px 10px #000000;
+}
