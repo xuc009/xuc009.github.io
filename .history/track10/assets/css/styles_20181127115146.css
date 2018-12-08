@@ -102,10 +102,9 @@ body{
 .edit{
     position: fixed;
     bottom:0;
-    right: 0;
+    right: -4;
     cursor: pointer;
 }
-    
 
 .dropbtn {
     background-color: Transparent;

@@ -37,7 +37,7 @@ body{
     visibility: visible;
 }
 
-/* a { cursor: move; } */
+a { cursor: move; }
 
 .draggable{
     box-shadow: 5px 5px 10px #000000;
@@ -105,8 +105,6 @@ body{
     right: 0;
     cursor: pointer;
 }
-    
-
 .dropbtn {
     background-color: Transparent;
     width: 140px;
