@@ -18,6 +18,67 @@
 //     $('.body_div').addClass('hide');
 // });
 
+// var slider_content = document.getElementById('box');
+// var img = ['1a','1b','1e','1f','1g','1h','1i','2a','2b','2e','2f','2g','2h','2i','3a','3b','3e','3f','3g','3h','3i'];
+var slider_content1 = document.getElementById('box1');
+var slider_content2 = document.getElementById('box2');
+var slider_content3 = document.getElementById('box3');
+
+
+var i = img.length;
+
+function nextimage () {
+  if (i<img.length) {
+    i= i+1;
+  } else {
+    i=1;
+  }
+    // slider_content.innerHTML = "<img src= assets/img/"+img[i-1]+".jpg>"; 
+}
+
+function prewimage () {
+  if (i<img.length+1 && i>1) {
+    i= i-1;
+  } else {
+    i=img.length;
+  }
+    // slider_content.innerHTML = "<img src= assets/img/"+img[i-1]+".jpg>"; 
+}
+
+function nextimage1 () {
+  nextimage ();
+    slider_content1.innerHTML = "<img src= assets/img/"+img[i-1]+".jpg>"; 
+}
+
+function prewimage1 () {
+ prewimage ();
+    slider_content1.innerHTML = "<img src= assets/img/"+img[i-1]+".jpg>"; 
+}
+
+
+function nextimage2 () {
+  nextimage ();
+    slider_content2.innerHTML = "<img src= assets/img/"+img[i-1]+".jpg>"; 
+}
+
+function prewimage2 () {
+ prewimage ();
+    slider_content2.innerHTML = "<img src= assets/img/"+img[i-1]+".jpg>"; 
+}
+
+function nextimage3 () {
+  nextimage ();
+    slider_content3.innerHTML = "<img src= assets/img/"+img[i-1]+".jpg>"; 
+}
+
+function prewimage3 () {
+ prewimage ();
+    slider_content3.innerHTML = "<img src= assets/img/"+img[i-1]+".jpg>"; 
+}
+
+
+
+//DROPDOWN CODE
 var x, i, j, selElmnt, a, b, c;
 /*look for any elements with the class "custom-select":*/
 x = document.getElementsByClassName("custom-select");

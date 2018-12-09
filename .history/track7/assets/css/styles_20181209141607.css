@@ -95,12 +95,11 @@ button {
   position: relative;
 	font-family: Arial;
 	font-weight: bold;
-	font-size: 13px;
+	font-size: 12px;
 	position: absolute;
 	top:40%;
 	left:-150%;
 	box-shadow: 0 4px 8px 0 #FDC275;
-	letter-spacing: 1px;
 
 }
 .custom-select select {

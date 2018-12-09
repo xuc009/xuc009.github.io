@@ -19,7 +19,7 @@
 // });
 
 // var slider_content = document.getElementById('box');
-var img = ['1a','1b','1e','1f','1g','1h','1i','2a','2b','2e','2f','2g','2h','2i','3a','3b','3e','3f','3g','3h','3i'];
+var img = ['1a', '1b', '1c','2a','2b',];
 var slider_content1 = document.getElementById('box1');
 var slider_content2 = document.getElementById('box2');
 var slider_content3 = document.getElementById('box3');
